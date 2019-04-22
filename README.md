@@ -20,3 +20,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - APT-packages installation.
   > - Cloning of github repositories.
   > - Custom installations.
+
+# TODO
+- Add BurpSuite Pro to custom file.
+- Add SalseoTools to custom file.
