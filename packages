@@ -1,0 +1,11 @@
+beef-xss
+build-essential
+enum4linux
+git
+metasploit-framework
+pdftk
+stoken
+rpcbind
+nfs-common
+python3-pip
+python-pip
