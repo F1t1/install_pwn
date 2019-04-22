@@ -1,0 +1,11 @@
+mkdir /usr/share/BloodHound_Ingestors;wget https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Ingestors/SharpHound.ps1 -O /usr/share/BloodHound_Ingestors/SharpHound.ps1;wget https://github.com/BloodHoundAD/BloodHound/raw/master/Ingestors/SharpHound.exe -O /usr/share/BloodHound_Ingestors/SharpHound.exe
+git clone https://github.com/Hackplayers/Empire-mod-Hackplayers /usr/share/Empire-mod-Hackplayers;cd /usr/share/Empire-mod-Hackplayers/setup;./install.sh
+git clone https://github.com/longld/peda.git /usr/share/gdb-peda;echo "source /usr/share/gdb-peda/peda.py" >> ~/.gdbinit
+git clone https://github.com/GreatSCT/GreatSCT.git /usr/share/GreatSCT;cd /usr/share/GreatSCT/setup;./setup.sh -c
+git clone https://github.com/oddcod3/Phantom-Evasion /usr/share/Phantom-Evasion;cd /usr/share/Phantom-Evasion;chmod +x phantom-evasion.py;python phantom-evasion.py
+mkdir /usr/share/PowerView;wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1 -O /usr/share/PowerView/PowerView.ps1
+mkdir /usr/share/pspy;cd /usr/share/pspy;wget https://github.com/DominicBreuker/pspy/releases/download/v1.0.0/pspy32;wget https://github.com/DominicBreuker/pspy/releases/download/v1.0.0/pspy64;mkdir small;cd small;wget https://github.com/DominicBreuker/pspy/releases/download/v1.0.0/pspy32s;wget https://github.com/DominicBreuker/pspy/releases/download/v1.0.0/pspy64s
+mkdir /usr/share/stegsolve;wget http://www.caesum.com/handbook/Stegsolve.jar -O /usr/share/stegsolve/stegsolve.jar;chmod +x /usr/share/stegsolve/stegsolve.jar
+sed -i '1s/^/certsrv\nwp\n/' /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+gem install -r winrm
+mkdir /usr/share/exiftool;cd /usr/share/exiftool;wget https://sourceforge.net/projects/exiftool/files/Image-ExifTool-11.37.tar.gz/download -O exiftool.tar.gz;tar -xzvf exiftool.tar.gz;cd Image-ExifTool-11.37/;perl Makefile.PL;make;make test;make install
