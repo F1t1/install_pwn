@@ -25,3 +25,4 @@ This script has been developed and tested on Kali Linux and has basically two ma
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
 - Add Filezilla.
+- Add .tmux.conf
