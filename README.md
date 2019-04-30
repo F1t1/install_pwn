@@ -28,3 +28,4 @@ This script has been developed and tested on Kali Linux and has basically two ma
 - Add .tmux.conf
 - Add docker and wpscan docker
 - Add vbox guest additions (apt)
+- Add cifs-utils (apt)
