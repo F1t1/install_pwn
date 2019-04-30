@@ -29,4 +29,3 @@ This script has been developed and tested on Kali Linux and has basically two ma
 - Add docker and wpscan docker
 - Add vbox guest additions (apt)
 - Add cifs-utils (apt)
-- Add bkhive (apt)
