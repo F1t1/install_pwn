@@ -24,8 +24,9 @@ This script has been developed and tested on Kali Linux and has basically two ma
 # TODO
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
+- Solve problems with exiftools (custom file)
 - ~~Add Filezilla.~~ done
-- Add .tmux.conf
+- ~~Add .tmux.conf~~ done
 - ~~Add docker and wpscan docker~~ not needed. wpscan working again
 - ~~Add vbox guest additions (apt)~~ done
 - ~~Add cifs-utils (apt)~~ done
