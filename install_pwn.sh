@@ -65,12 +65,12 @@ install_github(){
 install_custom(){
 	#################
 	# Executes custom commands and redirects stderr to ErrorFile.log
-	# CALL: install_custom($command)
+	# CALL: install_custom($command $directory)
 	#################
-	echo "$CYAN[*] Received command >> $1." | tee -a LogFile.log
-	echo "$CYAN[*] Executing...$DEFAULT" | tee -a LogFile.log
-	$1 2>> LogFile.log
-	echo "$GREEN[+] Done!$DEFAULT" | tee -a LogFile.log
+	echo "$CYAN[*] Received command >> $1." | tee -a $directory/LogFile.log
+	echo "$CYAN[*] Executing...$DEFAULT" | tee -a $directory/LogFile.log
+	$1 2>> $directory/LogFile.log
+	echo "$GREEN[+] Done!$DEFAULT" | tee -a $directory/LogFile.log
 }
 
 verify_files(){
@@ -82,7 +82,7 @@ verify_files(){
 	#Expected values
 	md5_packages="46ac41e96ae5a0adf61b4206e2011648"
 	md5_github="fdd62876969e937c9eca1894617a009f"
-	md5_custom="a849977b6a6fab507c809e1b0b0d1fe7"
+	md5_custom="d8597036e980f724bfb5575a16c98fcb"
 	
 	#Current values
 	current_md5_packages=$(md5sum $1 | cut -d ' ' -f 1)
@@ -188,7 +188,7 @@ done < "$github_file"
 echo "$CYAN[*] INSTALLING TOOLS WITH CUSTOM INSTALLATION...$DEFAULT" | tee -a LogFile.log
 while IFS= read -r custom
 do
-	directory=$pwd
+	directory=$(pwd)
 	echo "$CYAN[*] ---- Custom installation of $custom in progress -----$DEFAULT" | tee -a LogFile.log
 	ended=1
 	counter=1
@@ -200,7 +200,7 @@ do
 			ended=0
 		else
 			#IMPORTANT: Call this function with param between quotes to be considered as ONLY ONE param.
-			install_custom "$current_command"
+			install_custom "$current_command" $directory
 			counter=$(( $counter + 1 ))
 		fi
 	done
