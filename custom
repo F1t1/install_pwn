@@ -9,3 +9,4 @@ mkdir /usr/share/stegsolve;wget http://www.caesum.com/handbook/Stegsolve.jar -O 
 sed -i '1s/^/certsrv\nwp\n/' /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 gem install -r winrm
 mkdir /usr/share/exiftool;cd /usr/share/exiftool;wget https://sourceforge.net/projects/exiftool/files/Image-ExifTool-11.37.tar.gz/download -O exiftool.tar.gz;tar -xzvf exiftool.tar.gz;cd Image-ExifTool-11.37/;perl Makefile.PL;make;make test;make install
+cp ./_.tmux.conf ~/.tmux.conf
