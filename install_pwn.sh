@@ -80,9 +80,9 @@ verify_files(){
 	#################
 	
 	#Expected values
-	md5_packages="c9b17e139835e682b3fb6830e8c0bea6"
-	md5_github="c778a37436f98a3b0f843ed3caff2436"
-	md5_custom="530ccf05bc082beb3330b4b0f7d60a5f"
+	md5_packages="46ac41e96ae5a0adf61b4206e2011648"
+	md5_github="fdd62876969e937c9eca1894617a009f"
+	md5_custom="a849977b6a6fab507c809e1b0b0d1fe7"
 	
 	#Current values
 	current_md5_packages=$(md5sum $1 | cut -d ' ' -f 1)
@@ -202,7 +202,6 @@ do
 			#IMPORTANT: Call this function with param between quotes to be considered as ONLY ONE param.
 			install_custom "$current_command"
 			counter=$(( $counter + 1 ))
-			echo $counter
 		fi
 	done
 	cd $directory
