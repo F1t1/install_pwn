@@ -22,6 +22,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - Custom installations.
 
 # TODO
+- Add cewl (apt)
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
 - Solve problems with exiftools (custom file)
