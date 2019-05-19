@@ -23,6 +23,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
 
 # TODO
 - Add cewl (apt)
+- Fix gdb-peda (custom) to modify .gdbinit in every user.
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
 - Solve problems with exiftools (custom file)
