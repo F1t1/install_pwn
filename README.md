@@ -23,6 +23,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
 
 # TODO
 - Add cewl (apt)
+- Add sublime text (custom) (http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/)
 - Fix gdb-peda (custom) to modify .gdbinit in every user.
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
