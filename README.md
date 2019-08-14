@@ -22,6 +22,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - Custom installations.
 
 # TODO
+- Add pwntools (custom) (http://docs.pwntools.com/en/stable/install.html)
 - ~~Add terminator (apt)~~ done
 - ~~Add bloodhound (apt)~~ done
 - ~~Add evil-winrm (custom)~~ done
