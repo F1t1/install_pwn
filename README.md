@@ -35,7 +35,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
 - ~~Add Filezilla.~~ done
 - ~~Add .tmux.conf~~ done
 - ~~Add docker and wpscan docker~~ not needed. wpscan working again
-- ~~Add vbox guest additions (apt)~~ done
+- ~~Add vbox guest additions (apt)~~ migrated to vmware, no needed anymore
 - ~~Add cifs-utils (apt)~~ done
 - Add mozilla plugins
   - Cookie manager
