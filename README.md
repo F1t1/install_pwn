@@ -22,13 +22,13 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - Custom installations.
 
 # TODO
-- Add terminator + config file
-- Add bloodhound (apt)
-- Add evil-winrm (custom)
-- Add ~/.vimrc (set mouse-=a) to disable visual insert.
-- Add cewl (apt)
-- Add sublime text (custom) (http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/)
-- Fix gdb-peda (custom) to modify .gdbinit in every user.
+- ~~Add terminator (apt)~~ done
+- ~~Add bloodhound (apt)~~ done
+- ~~Add evil-winrm (custom)~~ done
+- ~~Add ~/.vimrc (set mouse-=a) to disable visual insert.~~ done
+- ~~Add cewl (apt)~~ done
+- ~~Add sublime text (custom) (http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/)~~
+- ~~Fix gdb-peda (custom) to modify .gdbinit in every user.~~ no needed.
 - Add BurpSuite Pro to custom file.
 - Add SalseoTools to custom file.
 - Solve problems with exiftools (custom file)
@@ -41,3 +41,4 @@ This script has been developed and tested on Kali Linux and has basically two ma
   - Cookie manager
   - Foxy proxy
   - Wappalizer
+  - firefox multi account containers
