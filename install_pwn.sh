@@ -82,7 +82,7 @@ verify_files(){
 	#Expected values
 	md5_packages="e6409cd419e5c8f59dcc2e9e2d4aba29"
 	md5_github="fdd62876969e937c9eca1894617a009f"
-	md5_custom="71b2df1883f50ce7143b8344e12b00e7"
+	md5_custom="4d1d46a1a9f02980d5fed47032209421"
 	
 	#Current values
 	current_md5_packages=$(md5sum $1 | cut -d ' ' -f 1)
