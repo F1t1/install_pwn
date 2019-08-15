@@ -25,7 +25,6 @@ This script has been developed and tested on Kali Linux and has basically two ma
 - Add pwntools (custom) (http://docs.pwntools.com/en/stable/install.html)
 - Add gobuster (wtf! no by default?!?!) (apt)
 - Add dbeaver (apt)
-- Move bloodhound to custom (https://www.youtube.com/watch?v=rDwRdJBIXsU)
 - ~~Add terminator (apt)~~ done
 - ~~Add bloodhound (apt)~~ done
 - ~~Add evil-winrm (custom)~~ done
