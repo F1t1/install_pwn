@@ -22,6 +22,7 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - Custom installations.
 
 # TODO
+- Add rlwrap (apt)
 - Add pwntools (custom) (http://docs.pwntools.com/en/stable/install.html)
 - Add gobuster (wtf! no by default?!?!) (apt)
 - Add dbeaver (apt)
