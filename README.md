@@ -22,6 +22,8 @@ This script has been developed and tested on Kali Linux and has basically two ma
   > - Custom installations.
 
 # TODO
+- Add virt-manager (apt)
+- Add ssh-askpass-gnome (apt)
 - Add jxplorer (apt)
 - Add rlwrap (apt)
 - Add pwntools (custom) (http://docs.pwntools.com/en/stable/install.html)
